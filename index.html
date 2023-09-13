@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="">
+    <main>
+      <header class="container my-3">
+        <h1 class="main-head py-2 mx-auto text-light text-capitalize">
+          simple weather app
+        </h1>
+        <form class="row" action="">
+          <div class="form-floating col-md-5 col-12 my-4">
+            <input
+              name="city"
+              type="text"
+              class="search-input form-control text-light fw-bold fs-4 border-0 rounded-0 border-bottom px-2 bg-transparent"
+              id="floatingInput"
+              placeholder="search for city"
+            />
+            <label
+              for="floatingInput  "
+              class="px-4 pb-3 text-light fw-medium text-capitalize"
+              >search for a city</label
+            >
+          </div>
+          <div class="col-md-7 col-12 d-flex align-items-center">
+            <button
+              type="button"
+              class="btn-submit btn btn-danger fw-bold text-uppercase py-3 px-4"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div
+            class="alert col-md-5 fw-bold my-2 fs-5 col-12 alert-danger text-capitalize hidden"
+            role="alert"
+          >
+            invalid city name
+          </div>
+        </form>
+      </header>
+      <section
+        class="cities d-flex align-items-center mx-auto text-center my-2"
+      >
+        <div class="container">
+          <div
+            class="container cities__target p-0 row row-cols-1 row-cols-md-3 my-2 g-4"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =================Start Footer==================== -->
+    <footer class="py-2 text-center text-capitalize bg-gradient text-light">
+      <p class="m-0 fs-6">
+        All Right Reserved © <span class="footer-year"> 2023</span>-Basel Diab
+      </p>
+    </footer>
+
+    <!-- ====================================================== -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js.map"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

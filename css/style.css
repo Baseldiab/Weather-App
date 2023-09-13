@@ -1,0 +1,37 @@
+html {
+  height: 100%;
+  /* this defines what 1rem is 10px in xl & xxl media */
+  /* font-size: 62.5%; 1rem = 10px -->  10/16 *100% = 62.5% */
+}
+
+body {
+  min-height: 100%;
+  color: #343a49;
+  font-family: Inter, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #090c3f;
+  /* background: linear-gradient(90deg, #290f87 0%, #121770 50%, #0f3587 100%); */
+}
+
+.main-head {
+  /* width: fit-content; */
+  font-size: 50px;
+}
+.search-input:focus {
+  box-shadow: none;
+}
+.card-text {
+  font-size: 60px;
+}
+.city__target {
+  box-shadow: 10px 10px #7c7c7c;
+}
+.hidden {
+  display: none;
+}
+footer {
+  /* background-color: #290f87; */
+  /* color: #000; */
+}
